@@ -17,5 +17,4 @@ RedisSession¼Ì³Ð org.apache.catalina.session.StandardSession¡£
     <!-- use redis keep session -->
     <Manager pathname="" className="org.apache.catalina.session.ext.RedisManager" 
              stickySession="true" serverlist="${ip1}:${port1}:${password1},${ip2}:${port2}:${password2}" minConn="5" maxConn="100" socketTO="6000" debug="false"
-    />
-		
+    />		
